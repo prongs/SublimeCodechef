@@ -1,0 +1,51 @@
+<snippet>
+	<description>#include "…"</description>
+    <tabTrigger>codechef</tabTrigger>
+	<content><![CDATA[
+#define s(n) scanf("%d", &n)
+#define p(n) printf("%d\n", n)
+#define sl(n) scanf("%lld", &n)
+#define pl(n) printf("%lld\n", n)
+#define sf(n) scanf("%f", &n)
+#define pf(n) printf("%f\n", n)
+#define sc(n) scanf("%c", &n)
+#define pc(n) printf("%c\n", n)
+#define ss(n) scanf("%s", n)
+#define ps(n) printf("%s\n", n)
+#define MIN(a,b) ((a<b)?a:b)
+#define MAX(a,b) ((a>b)?a:b)
+${1:/*more #defines*/}
+
+#include <iostream>
+#include <string.h>
+#include <algorithm>
+#include <vector>
+${2:/*more #includes*/}
+
+using namespace std;
+
+${3:/*structs and all*/}
+
+int ${4:T}; /*number of test cases*/
+${5}/*integers to be scanned every loop*/
+${6:/*more global variables*/}
+
+${10:/*functions*/}
+
+int main(int argc, char const *argv[])
+{
+	${7:/* code */
+	s(T);
+	while($4--)
+	{
+		${8:${5/.*?\s*(\w+)\s*[,;]/s\(\1\);/g;}}
+		${9:/*inside loop*/}
+	\}
+	}
+	return 0;
+}
+
+]]></content>
+    <scope>source.c, source.objc, source.c++, source.objc++</scope>
+</snippet>
+
