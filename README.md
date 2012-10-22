@@ -42,4 +42,16 @@ Use only `int` , `long long` or `long long int`. You see that for a variable nam
 * To print arbitrary number of variables(debugging) use `debug(a,b,c /*and any more variables comma separated*/)`. You don't even need to remove your `debug` statements. No printing will occur in production. 
 * `vector`, `set` or `map` can be printed easily by `cout<<v`. You can even pas a `vector`, `set` or `map` to `debug` as one of its arguments
 
+## How to Install
+to install, download the zip, extract it and copy the extracted directory to your packages directory. On windows, packages directory is at `%appdata%\Sublime Text 2\Packages`. Make sure your structure looks like this:
+
+        Packages
+        |
+        |-SublimeCodechef
+          |
+          |--codechef_c++.sublime-build
+          |--codechef_c++.sublime-snippet
+
+
+
 **Any suggestions are welcome!**
