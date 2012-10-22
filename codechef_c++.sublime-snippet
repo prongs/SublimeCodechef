@@ -50,7 +50,7 @@ void scan(int* i){int t=0;char c;bool negative=false;c=getchar_unlocked();while(
 void scan(long long int* i){long long int t=0;char c;bool negative=false;c=getchar_unlocked();while(c<'0'||c>'9'){if(c=='-')negative=true;c=getchar_unlocked();}while(c>='0'&&c<='9'){t=(t<<3)+(t<<1)+c-'0';c=getchar_unlocked();}if(negative)t=~(t-1);*i=t;}
 /*debug functions*/
 #ifdef DEBUG
-	#define debug(args...) {dbg,args;std::cerr<<endl;}
+	#define debug(args...) {dbg,args;std::cerr<<std::endl;}
 #else
 	#define debug(args...) // Just strip off all debug tokens
 #endif
