@@ -55,3 +55,5 @@ to install, download the zip, extract it and copy the extracted directory to you
 
 
 **Any suggestions are welcome!**
+
+**Acknowledgement**: partly taken from [Nikhil Garg's Answer on quora](http://www.quora.com/C++-programming-language/What-are-the-basic-macros-that-are-used-in-programming-contests)
