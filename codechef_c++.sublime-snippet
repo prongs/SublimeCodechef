@@ -2,6 +2,8 @@
 	<description>#include "…"</description>
 	<tabTrigger>codechef</tabTrigger>
 	<content><![CDATA[
+// Ideone_Language_Id:1
+/* Don't remove the first line! */
 #include <iostream>
 #include <string.h>
 #include <algorithm>
