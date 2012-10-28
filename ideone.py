@@ -204,7 +204,7 @@ class IdeoneItCommand(sublime_plugin.TextCommand):
 			pass
 		self.output_view.insert(self.edit, self.output_view.size(), "\n\nSubmitting "+
 			os.path.basename(os.path.normpath(self.file_name))+
-			("and "+os.path.basename(os.path.normpath(self.input_file_name)) if input_text else "")+
+			(" and "+os.path.basename(os.path.normpath(self.input_file_name)) if input_text else "")+
 			" to Ideone...\n")
 		self.handle_thread()
 	def handle_thread(self):
