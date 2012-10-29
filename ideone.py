@@ -239,5 +239,7 @@ class IdeoneItCommand(sublime_plugin.TextCommand):
 				res="\nResult: With "+\
 				self.check_output_thread.result['langVersion']+\
 				 "Compiler Info starts at next line:\n"+\
-				self.check_output_thread.result['cmpinfo']+"\nAnd Output starts with next line:\n"+self.check_output_thread.result['output']+"\n"
+				self.check_output_thread.result['cmpinfo']+\
+				"\nStderr starts at next line:\n"+self.check_output_thread.result['stderr']+\
+				"\nAnd Output starts with next line:\n"+self.check_output_thread.result['output']+"\n"
 				self.output_view.insert(self.edit,self.output_view.size(), (res)+"\n")
