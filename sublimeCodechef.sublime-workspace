@@ -1,0 +1,1068 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"out",
+				"output_view"
+			],
+			[
+				"han",
+				"handle_thread"
+			],
+			[
+				"handl",
+				"handle_check_output_thread"
+			],
+			[
+				"getSu",
+				"getSubmissionDetails"
+			],
+			[
+				"in",
+				"input_file_name"
+			],
+			[
+				"set",
+				"settings"
+			],
+			[
+				"thre",
+				"thread"
+			],
+			[
+				"inpu",
+				"input_text"
+			],
+			[
+				"lan",
+				"language_id"
+			],
+			[
+				"crea",
+				"createSubmission"
+			],
+			[
+				"__",
+				"__init__"
+			],
+			[
+				"IdeoneLan",
+				"IdeoneLanguageThread"
+			],
+			[
+				"subli",
+				"sublime"
+			],
+			[
+				"ide",
+				"ideone_settings"
+			],
+			[
+				"Ide",
+				"Ideone"
+			],
+			[
+				"Ideon",
+				"IdeoneLanguageThread"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"id",
+				"ideone_settings"
+			],
+			[
+				"sub",
+				"sublime-settings"
+			],
+			[
+				"tg",
+				"tgtNode"
+			],
+			[
+				"norm",
+				"norm_verts"
+			],
+			[
+				"us",
+				"user_id"
+			],
+			[
+				"mes",
+				"meshData"
+			],
+			[
+				"Lib",
+				"Lib3dsMeshInstanceNode"
+			],
+			[
+				"nod",
+				"noDevisers"
+			],
+			[
+				"modi",
+				"modifier_name"
+			],
+			[
+				"mod",
+				"modifier_name"
+			],
+			[
+				"inden",
+				"indent_characters"
+			],
+			[
+				"Prefi",
+				"PrefixrAPiCall"
+			],
+			[
+				"prefix",
+				"PREFIXR_URL"
+			],
+			[
+				"urllib",
+				"urllib2"
+			],
+			[
+				"try",
+				"try	Try/Except"
+			],
+			[
+				"te",
+				"test_x"
+			],
+			[
+				"lib",
+				"libsvmtest"
+			],
+			[
+				"fre",
+				"freqMap"
+			],
+			[
+				"k",
+				"k_best"
+			],
+			[
+				"de",
+				"denom"
+			],
+			[
+				"star",
+				"startind"
+			],
+			[
+				"for",
+				"for	For Loop"
+			],
+			[
+				"st",
+				"startind"
+			],
+			[
+				"max",
+				"MAX"
+			],
+			[
+				"if",
+				"if	If Condition"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/Rajat/Desktop/a.cpp",
+			"settings":
+			{
+				"buffer_size": 14803,
+				"line_ending": "Windows",
+				"name": "//////////////////////////////////////////////////"
+			}
+		},
+		{
+			"file": "ideone.py",
+			"settings":
+			{
+				"buffer_size": 8627,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 262,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Rajat/Dropbox/study/codechef/DRGNBOOL.cpp",
+			"settings":
+			{
+				"buffer_size": 719,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "\n\nSubmitting DRGNBOOL.cppand DRGNBOOL.txt to Ideone...\nStill trying to submit...\nStill trying to submit...\nSubmit successful. your code is at : http://ideone.com/Jm6lMx\nRunning...\nStill running...\nStill running...\nStill running...\n\nResult: With gcc-4.3.4Compiler Info starts at next line:\nprog.cpp: In function ‘int main(int, const char**)’:\nprog.cpp:22: error: expected `;' before ‘for’\nprog.cpp:22: error: ‘i’ was not declared in this scope\nprog.cpp:22: error: expected `;' before ‘)’ token\nprog.cpp:17: warning: ignoring return value of ‘int scanf(const char*, ...)’, declared with attribute warn_unused_result\nprog.cpp:20: warning: ignoring return value of ‘int scanf(const char*, ...)’, declared with attribute warn_unused_result\nprog.cpp:29: warning: ignoring return value of ‘int scanf(const char*, ...)’, declared with attribute warn_unused_result\n\nAnd Output starts with next line:\n\n\n\n\nSubmitting DRGNBOOL.cppand DRGNBOOL.txt to Ideone...\nStill trying to submit...\nStill trying to submit...\nSubmit successful. your code is at : http://ideone.com/EIUExS\nRunning...\nStill running...\nStill running...\nStill running...\nStill running...\n\nResult: With gcc-4.3.4Compiler Info starts at next line:\nprog.cpp: In function ‘int main(int, const char**)’:\nprog.cpp:22: error: expected `;' before ‘for’\nprog.cpp:22: error: ‘i’ was not declared in this scope\nprog.cpp:22: error: expected `;' before ‘)’ token\nprog.cpp:17: warning: ignoring return value of ‘int scanf(const char*, ...)’, declared with attribute warn_unused_result\nprog.cpp:20: warning: ignoring return value of ‘int scanf(const char*, ...)’, declared with attribute warn_unused_result\nprog.cpp:29: warning: ignoring return value of ‘int scanf(const char*, ...)’, declared with attribute warn_unused_result\n\nAnd Output starts with next line:\n\n\n\n\nSubmitting DRGNBOOL.cppand DRGNBOOL.txt to Ideone...\nStill trying to submit...\nStill trying to submit...\nFailed, please try again\n\n\nSubmitting DRGNBOOL.cpp and DRGNBOOL.txt to Ideone...\nStill trying to submit...\nFailed, please try again\n",
+			"settings":
+			{
+				"buffer_size": 2042,
+				"line_ending": "Windows",
+				"name": "Ideone Output",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/Default/font.py",
+			"settings":
+			{
+				"buffer_size": 1269,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Main.sublime-menu",
+			"settings":
+			{
+				"buffer_size": 1864,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 311.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ind",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"gold",
+				"Golden Ratio"
+			],
+			[
+				"inden",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"syn c++",
+				"Set Syntax: C++"
+			],
+			[
+				"syntax ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"synta",
+				"Set Syntax: JSON"
+			],
+			[
+				"syntax php",
+				"Set Syntax: PHP"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pyt",
+				"SublimeREPL: Python"
+			],
+			[
+				"python",
+				"SublimeREPL: Python"
+			],
+			[
+				"prev",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"sq",
+				"Square Numbers"
+			],
+			[
+				"inc",
+				"Increment Numbers"
+			],
+			[
+				"incre",
+				"Increment Numbers"
+			],
+			[
+				"sele",
+				"Select Next Number"
+			],
+			[
+				"squa",
+				"Square Numbers"
+			],
+			[
+				"dec",
+				"Decrement Numbers"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"selec",
+				"Select Next Number"
+			],
+			[
+				"select n",
+				"Select Next Number"
+			],
+			[
+				"select",
+				"Select Next Number"
+			],
+			[
+				"select ",
+				"Select Next Number"
+			],
+			[
+				"select ne",
+				"Select Next Number"
+			],
+			[
+				"pre",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"previe",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"preview",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"preve",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"shell",
+				"SublimeREPL: Shell"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"mark",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"syntax mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"markd",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"ma",
+				"Markdown Preview: open Markdown Cheat sheet"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git",
+				"Git: Init"
+			],
+			[
+				"set syntax python",
+				"Set Syntax: Python"
+			],
+			[
+				"set syntax matla",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"ss py",
+				"Set Syntax: Python"
+			],
+			[
+				"pyth",
+				"SublimeREPL: Python"
+			],
+			[
+				"repl py",
+				"SublimeREPL: Python"
+			],
+			[
+				"virtual",
+				"SublimeREPL: Python - virtualenv"
+			],
+			[
+				"repl pyt",
+				"SublimeREPL: Python"
+			],
+			[
+				"repl pyth",
+				"SublimeREPL: Python - virtualenv"
+			],
+			[
+				"repl",
+				"SublimeREPL: Matlab"
+			],
+			[
+				"lua",
+				"SublimeREPL: Lua"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"diff",
+				"Set Syntax: Diff"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"save as ",
+				"Project: Save As"
+			],
+			[
+				"add ",
+				"Project: Add Folder"
+			],
+			[
+				"s c++",
+				"Set Syntax: C++"
+			],
+			[
+				"sspy",
+				"Set Syntax: Python"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 293.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Rajat/Documents/Visual Studio 2012/Projects/GraphicsProject/GraphicsProject/libraries/lib3ds/src/lib3ds_file.c",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/SublimeCodechef/ideone.py",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/SublimeIdeone/ideone.py",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/SublimeIdeone/__init__.py",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/User/SublimeCodechef.sublime-settings",
+		"/C/Users/Rajat/Documents/Visual Studio 2012/Projects/GraphicsProject/GraphicsProject/libraries/lib3ds/src/lib3ds_mesh.c",
+		"/C/Users/Rajat/Documents/Visual Studio 2012/Projects/GraphicsProject/.gitignore",
+		"/C/Users/Rajat/Documents/Visual Studio 2012/Projects/GraphicsProject/GraphicsProject/Car.h",
+		"/C/Users/Rajat/Documents/Visual Studio 2012/Projects/GraphicsProject/GraphicsProject/libraries/lib3ds/src/lib3ds.h",
+		"/C/Users/Rajat/Documents/Visual Studio 2012/Projects/GraphicsProject/GraphicsProject/libraries/lib3ds/src/lib3ds_material.c",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/SublimeREPL/sublimerepl.py",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/User/IdeoneLanguageList.sublime-settings",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/SublimeCodechef/SublimeCodechef.sublime-settings",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/SublimeCodechef/codechef_c++.sublime-snippet",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/SublimeEvernote/sublime_evernite.py",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/Python/Python.tmLanguage",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/Python/Python.tmLanguage.cache",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/SublimeNumberManipulation/main.py",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/SublimeCodechef/Main.sublime-menu",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/User/SublimeREPL.sublime-settings",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/SublimeREPL/Main.sublime-menu",
+		"/C/Users/Rajat/AppData/Local/Temp/freearc0c637f4a.tmp/fpconst-0.7.2/fpconst.py",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/SublimeIdeone/SOAPpy/__init__.py",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/SublimeIdeone/SOAPpy/wstools/__init__.py",
+		"/C/Program Files/Sublime Text 2/PackageSetup.py",
+		"/C/Program Files/Sublime Text 2/Pristine Packages/YAML.sublime-package",
+		"/C/Program Files/Sublime Text 2/Pristine Packages/C++.sublime-package",
+		"/E/study/sem3/CSP301/Assignments/Ping_pong/proj1/multipleloader.cpp",
+		"/C/Users/Rajat/Documents/Visual Studio 2012/Projects/GraphicsProject/GraphicsProject/libraries/lib3ds/src/lib3ds_matrix.c",
+		"/C/Users/Rajat/Documents/Visual Studio 2012/Projects/GraphicsProject/GraphicsProject/models/lamborgini/lamborgini.obj",
+		"/C/Users/Rajat/Documents/Visual Studio 2012/Projects/GraphicsProject/GraphicsProject/models/lamborgini/lamborgini.mtl",
+		"/C/Users/Rajat/Documents/Visual Studio 2012/Projects/GraphicsProject/GraphicsProject/models/lamborgini/lamborgini.dae",
+		"/C/Users/Rajat/Documents/Visual Studio 2012/Projects/GraphicsProject/GraphicsProject/models/lamborgini/lamborgini.FBX",
+		"/E/study/sem3/CSP301/Assignments/Ping_pong/proj1/classes.h",
+		"/C/Users/Rajat/Documents/Visual Studio 2012/Projects/GraphicsProject/GraphicsProject/models/lamborgini/MURCIELAGO640.FBX",
+		"/C/Users/Rajat/Dropbox/algos/projectEuler/prime.py",
+		"/C/Users/Rajat/Documents/Visual Studio 2012/Projects/GraphicsProject/GraphicsProject/libraries/lib3ds/ltmain.sh",
+		"/C/Users/Rajat/Dropbox/study/topcoder/AvoidRoads.cpp",
+		"/C/Users/Rajat/Documents/Visual Studio 2012/Projects/GraphicsProject/GraphicsProject/libraries/lib3ds/lib3ds.sln",
+		"/C/Users/Rajat/Documents/Visual Studio 2012/Projects/GraphicsProject/GraphicsProject/libraries/lib3ds/README",
+		"/C/Users/Rajat/Dropbox/study/careercup/deletewiththis.txt",
+		"/E/xampp/htdocs/missing.php",
+		"/E/xampp/apache/conf/httpd.conf",
+		"/E/xampp/apache/conf/extra/httpd-manual.conf",
+		"/C/Users/Rajat/Dropbox/study/random-interview-problems/mota-doubt.cpp",
+		"/C/Users/Rajat/Dropbox/study/interviewstreet/xorkey.cpp",
+		"/C/Users/Rajat/Dropbox/study/careercup/c-indent.py",
+		"/E/xampp/htdocs/index.php",
+		"/C/Users/Rajat/Dropbox/study/careercup/deletewiththis.cp",
+		"/C/Users/Rajat/Dropbox/study/random-interview-problems/mota-doubt.txt",
+		"/C/Users/Rajat/Dropbox/study/careercup/input.c",
+		"/C/Users/Rajat/Dropbox/study/careercup/output.c",
+		"/C/Users/Rajat/Dropbox/study/codechef/BPHC01.cpp",
+		"/C/Users/Rajat/Dropbox/study/codechef/BPHC01.txt",
+		"/C/Users/Rajat/Dropbox/study/interviewstreet/xorkey.txt",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/SublimeCodechef/README.md",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/SublimeNumberManipulation/Default.sublime-commands",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/SublimeNumberManipulation/README.md",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/package_control_channel/repositories.json",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/Markdown Preview/Default.sublime-commands",
+		"/C/Users/Rajat/Documents/Visual Studio 2012/Projects/GraphicsProject/README.md",
+		"/C/Users/Rajat/Downloads/lib3ds-20080909/lib3ds-20080909/examples/Makefile.in",
+		"/C/Users/Rajat/Downloads/lib3ds-20080909/lib3ds-20080909/ltmain.sh",
+		"/C/Users/Rajat/Documents/Visual Studio 2012/Projects/GraphicsProject/GraphicsProject/GraphicsProject.cpp",
+		"/C/Users/Rajat/Documents/Visual Studio 2012/Projects/GraphicsProject/GraphicsProject/stdafx.h",
+		"/C/Users/Rajat/Documents/Visual Studio 2012/Projects/GraphicsProject/GraphicsProject/stdafx.cpp",
+		"/C/Users/Rajat/Downloads/mortennobel-OpenGL_3.2_VS_2010_freeglut-69a4ea2/mortennobel-OpenGL_3.2_VS_2010_freeglut-69a4ea2/OpenGL_3_2_Example.vcxproj",
+		"/C/Users/Rajat/Downloads/mortennobel-OpenGL_3.2_VS_2010_freeglut-69a4ea2/mortennobel-OpenGL_3.2_VS_2010_freeglut-69a4ea2/OpenGL_3_2_Example.sln",
+		"/E/study/sem3/CSP301/Assignments/Ping_pong/proj1/additional.h",
+		"/C/Users/Rajat/Downloads/lib3ds-20080909/lib3ds-20080909/examples/Makefile.am",
+		"/C/Users/Rajat/Documents/Visual Studio 2012/Projects/GraphicsProject/GraphicsProject/GraphicsProject.vcxproj.filters",
+		"/C/Users/Rajat/Documents/Visual Studio 2012/Projects/GraphicsProject/GraphicsProject.sln",
+		"/C/Users/Rajat/Downloads/mortennobel-OpenGL_3.2_VS_2010_freeglut-69a4ea2/mortennobel-OpenGL_3.2_VS_2010_freeglut-69a4ea2/.gitignore",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/SublimeCodechef/codechef_c++.sublime-build",
+		"/C/Users/Rajat/Dropbox/study/codechef/scan.txt",
+		"/C/Users/Rajat/Dropbox/study/codechef/scan.c",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/User/README.md",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-package",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/Markdown Preview/sample.md",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/LiveReload/livereload_st2.py",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/User/Context.sublime-menu",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/User/SublimeEvernote.sublime-settings",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/User/codechef/codechef_c++.sublime-snippet",
+		"/C/Users/Rajat/Dropbox/study/codechef/TOURNAM.txt",
+		"/C/Users/Rajat/Dropbox/study/codechef/TOURNAM.cpp",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/LiveReload/LiveReload.sublime-settings",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/User/.gitignore",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/User/Default (Linux).sublime-keymap",
+		"/C/Users/Rajat/Dropbox/study/codechef/BUYING2.txt",
+		"/C/Users/Rajat/Dropbox/study/codechef/DRGNBOOL.cpp",
+		"/C/Users/Rajat/Dropbox/study/codechef/BUYING2.cpp",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/C++/#include-(inc).sublime-snippet",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/Python/__magic__.sublime-snippet",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/py",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/Package Control/Package Control.py",
+		"/E/eula.3082.txt",
+		"/C/Users/Rajat/Dropbox/study/sem7/CSL865/ass2/q1d_output",
+		"/C/Users/Rajat/Dropbox/study/sem7/CSL865/ass2/q1d.py",
+		"/C/Users/Rajat/Dropbox/study/sem7/CSL865/ass2/Readme",
+		"/C/Users/Rajat/Dropbox/study/sem7/CSL865/ass2/libsvm/python/README",
+		"/C/Users/Rajat/Dropbox/study/sem7/CSL865/ass2/main.m",
+		"/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/User/opencmd.py",
+		"/C/Users/Rajat/Dropbox/study/sem7/CSL865/ass2/perceptron.csv",
+		"/C/Users/Rajat/Dropbox/study/sem7/CSL865/ass2/data/test",
+		"/C/Users/Rajat/Dropbox/study/sem7/CSL865/ass2/data/libsvmtest",
+		"/C/Users/Rajat/Dropbox/study/sem7/CSL865/ass2/data/train",
+		"/C/Users/Rajat/Dropbox/study/sem7/CSL865/ass2/data/test2",
+		"/C/Users/Rajat/Dropbox/study/sem7/CSL865/ass2/perceptron2.csv",
+		"/C/Users/Rajat/Dropbox/study/sem7/CSL865/ass2/naivebayes.csv",
+		"/C/Users/Rajat/Dropbox/study/sem7/CSL865/ass2/libsvm/README",
+		"/C/Users/Rajat/proxy.py",
+		"/C/Users/Rajat/Dropbox/study/sem7/CSL865/ass2/perceptron.m",
+		"/C/Users/Rajat/Dropbox/study/sem7/CSL865/ass2/main",
+		"/C/Users/Rajat/Dropbox/study/sem7/CSL865/ass2/libsvm-3.12/python/svmutil.py",
+		"/C/Users/Rajat/Dropbox/study/sem7/CSL865/ass2/libsvm-3.12/heart_scale",
+		"/C/Users/Rajat/Dropbox/study/sem7/CSL865/ass2/libsvm-3.12/python/README",
+		"/C/Users/Rajat/Dropbox/study/codechef/two_magician.py",
+		"/C/Users/Rajat/Dropbox/study/codechef/TEAMSIZE.txt",
+		"/C/Users/Rajat/Dropbox/study/codechef/LUCKY10.txt",
+		"/C/Users/Rajat/Dropbox/study/codechef/DIAMOND.txt",
+		"/C/Users/Rajat/Dropbox/study/codechef/DIAMOND.cpp",
+		"/C/Users/Rajat/Dropbox/study/codechef/LUCKY10.cpp",
+		"/C/Users/Rajat/Dropbox/study/codechef/TEAMSIZE.cpp"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"wsdl",
+			"soap",
+			"and",
+			"password",
+			"user",
+			"title",
+			"file_name",
+			"print",
+			"print ",
+			"',\"\")",
+			"serf",
+			"python",
+			"IdeoneLanguageThread",
+			"language_id",
+			"// Ideone_Language_Id:1",
+			"bash",
+			"f#",
+			"c#",
+			"javascript",
+			"python",
+			"c++",
+			"python",
+			"api_pass123w0rd",
+			"test",
+			"prongs",
+			"Status",
+			"SublimeREPL",
+			"texturemap",
+			"texture",
+			"tga",
+			"texture",
+			"tex",
+			"texture",
+			"targetno",
+			"matrix_camera",
+			"lib3dscamera",
+			"lib3dscameranode",
+			"camera",
+			"Camera",
+			"CAMERA",
+			"camera",
+			"CAMERA",
+			"Camera",
+			"CAMERA",
+			"Camera",
+			"CAMERA",
+			"Camera",
+			"CAMERA",
+			"camera",
+			"camNode",
+			"free",
+			"(*)",
+			"gl_width",
+			"nod",
+			"lib3ds_file_eval",
+			"[读取模型的包参考围盒打开增目录结构加默认的相机和目标模型文件读入模型以下可能在某些系列函数返回失败的结果机器上运行句的次序不能改变数据并关在需要检测的地方放置语句模型范如内存泄漏检测果围闭文件制作的场景中没有灯光、相机，就人为地在模型空间的四个角各加入一个背景色句柄中心尺寸坐标]",
+			"[读取模型的包围盒打开模型文件，读入模型以下3句的次序不能改变数据并关在需要检测的地方放置语句模型范如内存泄漏检测果围闭文件制作的场景中没有灯光、相机，就人为地在模型空间的四个角各加入一个背景色句柄中心尺寸坐标]",
+			"[读取模型的包围盒打开模型文件，读入模型数据并关闭文件句柄]",
+			"目",
+			"animation",
+			"anim",
+			"950714000",
+			"950726080",
+			"418752752",
+			"tire",
+			"950798176",
+			"418455760",
+			"lib3dsnode",
+			"lib3dsmesh",
+			"bin",
+			"lib3dsfile",
+			"lib3",
+			"file",
+			"404",
+			"error",
+			"404",
+			" ",
+			"\n",
+			"indent+",
+			"number mani",
+			"SublimeNumberManipulation",
+			"SublimeNumberManipulations",
+			"sublimenumbermanipulations",
+			"sublimecode",
+			"Decrement",
+			",",
+			"args",
+			"ModifyNumbers",
+			"ind",
+			"endl",
+			"d]ebug",
+			"debug",
+			"E:\\study\\sem7\\CSL781\\graphics",
+			"E:\\study\\sem7\\CSL781\\",
+			"include",
+			"map",
+			"vector",
+			" !=",
+			"= ",
+			" =",
+			" !=",
+			" =",
+			"= ",
+			" (",
+			"\\( ",
+			"( ",
+			"\\( ",
+			"( ",
+			"; ",
+			" &",
+			", ",
+			" &",
+			" <<",
+			"<< ",
+			"add",
+			"  +",
+			"scanf",
+			"getchar",
+			"getchar_unlocked",
+			"SublimeCodechef",
+			"Codechef",
+			"getchar_unlocked",
+			"float",
+			"1",
+			"div",
+			"http_proxy",
+			"0800",
+			"parameter"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"indent*' '+",
+			"std::endl",
+			"libraries",
+			"libraries\\",
+			"!=",
+			"=",
+			"!=",
+			"=",
+			"\\(",
+			"(",
+			";",
+			"&",
+			","
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Rajat/Desktop/a.cpp",
+					"settings":
+					{
+						"buffer_size": 14803,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								24
+							]
+						],
+						"settings":
+						{
+							"auto_name": "//////////////////////////////////////////////////",
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "ideone.py",
+					"settings":
+					{
+						"buffer_size": 8627,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								885,
+								885
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 399.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 262,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Rajat/Dropbox/study/codechef/DRGNBOOL.cpp",
+					"settings":
+					{
+						"buffer_size": 719,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								162,
+								162
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"settings":
+					{
+						"buffer_size": 2042,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2042,
+								2042
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1007.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/Rajat/AppData/Roaming/Sublime Text 2/Packages/Default/font.py",
+					"settings":
+					{
+						"buffer_size": 1269,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								521,
+								521
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "Main.sublime-menu",
+					"settings":
+					{
+						"buffer_size": 1864,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								485,
+								485
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 294.0
+	},
+	"output.git":
+	{
+		"height": 248.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 159.0,
+	"status_bar_visible": true
+}

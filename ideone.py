@@ -22,7 +22,7 @@ class Result:
 	MemoryLimit = 17
 	IllegalSystemCall = 19
 	InternalError = 20
-	
+
 
 def createTuple(item):
 	return (item['key'], item['value']) 
@@ -42,12 +42,17 @@ def getError(response):
 		return response['item'][0]['value']
 
 
+def getProxySettings():
+	return os.environ.get('http_proxy')
+
 class Ideone:
-	def __init__(self, user='test', password='test'):
+	def __init__(self, user='test', password='test',**kwargs):
 		self._user = user
 		self._password = password
+		self.kwargs=kwargs
+		self.kwargs['http_proxy']=getProxySettings().replace('http://','')
 	def connect(self):
-		self._wsdlObject = WSDL.Proxy('http://ideone.com/api/1/service.wsdl')
+		self._wsdlObject = WSDL.Proxy('http://ideone.com/api/1/service.wsdl',**self.kwargs)
 
 	def testFunction(self):
 		response = self._wsdlObject.testFunction(self._user, self._password)
