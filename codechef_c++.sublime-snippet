@@ -6,10 +6,17 @@
 /* Don't remove the first line! */
 #include <iostream>
 #include <string.h>
+#include <stdio.h>
 #include <algorithm>
 #include <vector>
 #include <set>
 #include <map>
+#include <cmath>
+#include <set>
+#include <utility>
+#include <stack>
+#include <cmath>
+#include <cassert>
 ${1:/*more #includes. Don't write "using namespace std" here*/}
 
 #ifdef __WIN32__
