@@ -1,0 +1,52 @@
+<snippet>
+	<content><![CDATA[
+// Ideone_Language_Id:1
+/* Don"t remove the first line! */
+#include <iostream>
+#include <string.h>
+#include <stdio.h>
+#include <algorithm>
+#include <vector>
+#include <set>
+#include <map>
+#include <cmath>
+#include <set>
+#include <utility>
+#include <stack>
+#include <cmath>
+#include <cassert>
+${1://more includes}
+#define foreach(v,c) for(typeof((c).begin()) v=(c).begin();v!=(c).end();++v)
+#define all(a) a.begin(),a.end()
+#define in(a,b) ((b).find(a)!=(b).end())
+#define pb push_back
+#define fill(a,v) memset(a,v,sizeof a)
+#define sz(a) ((int)(a.size()))
+#define mp make_pair
+#define pb push_back
+${2://more defines}
+
+
+
+class ${3:${TM_FILENAME/(.+)\..+|.*/$1/:name}}
+{
+public:
+	${4:int} ${5:function} (${6:args...});
+};
+
+$4 $3::$5 ($6)
+{
+	${7:/*Write code here*/}
+}
+
+
+int main(int argc, char const *argv[])
+{
+	${8:/*main testing code*/}
+}
+
+
+]]></content>
+	<tabTrigger>topcoder</tabTrigger>
+	<scope>source.c, source.objc, source.c++, source.objc++</scope>
+</snippet>
