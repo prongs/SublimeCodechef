@@ -27,7 +27,7 @@ ${1://more includes}
 ${2://more defines}
 
 
-
+using namespace std;
 class ${3:${TM_FILENAME/(.+)\..+|.*/$1/:name}}
 {
 public:
