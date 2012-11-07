@@ -69,21 +69,24 @@ template<typename T>inline std::ostream&operator<<(std::ostream& os,const std::v
 template<typename T>inline std::ostream&operator<<(std::ostream& os,const std::set<T>& v){bool first=true;std::string delim="[";for (typename std::set<T>::const_iterator ii=v.begin();ii!=v.end();++ii){os<<delim<<*ii;delim=", ";}return os<<"]";}
 template<typename T1,typename T2>inline std::ostream&operator<<(std::ostream& os,const std::map<T1,T2>& v){bool first=true;std::string delim="[";for (typename std::map<T1,T2>::const_iterator ii=v.begin();ii!=v.end();++ii){os<<delim<<*ii;delim=", ";}return os<<"]";}
 
-${3:/*structs and typedefs*/}
 
-int ${4:T};/*number of test cases*/
-${5}/*integers to be scanned every loop*/
-${6:/*more global variables*/}
-${7:using namespace std;}
+${3:using namespace std;}
+
+${4:/*structs and typedefs*/}
+
+int ${5:T};/*number of test cases*/
+${6}/*integers to be scanned every loop*/
+${7:/*more global variables*/}
+
 ${11:/*functions*/}
 
 int main(int argc, char const *argv[])
 {
 	${8:/* code */
-	s(T);
-	while($4--)
+	s($5);
+	while($5--)
 	{
-		${9:${5/.*?\s*(\w+)\s*[,;]/s\(\1\);/g;}}
+		${9:${6/.*?\s*(\w+)\s*[,;]/s\(\1\);/g;}}
 		${10:/*inside loop*/}
 	\}
 	}
