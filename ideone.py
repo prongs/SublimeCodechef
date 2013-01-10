@@ -1,4 +1,3 @@
-# Ideone_Language_Id: 4
 import sublime
 import sublime_plugin
 import sys
@@ -72,7 +71,8 @@ class Ideone:
         self._user = user
         self._password = password
         self.kwargs = kwargs
-        self.kwargs['http_proxy'] = getProxySettings().replace('http://', '')
+        if getProxySettings():
+            self.kwargs['http_proxy'] = getProxySettings().replace('http://', '')
         if not self._user and not self._password:
             raise UnspecifiedCredentialsError
 
@@ -137,8 +137,8 @@ class IdeoneLanguageThread(threading.Thread, Ideone):
         self.result = self.getLanguages()
 
 
-class IdeoneResetLanguageSettingsCommand(sublime_plugin.TextCommand):
-    def run(self, edit):
+class IdeoneResetLanguageSettingsCommand(sublime_plugin.ApplicationCommand):
+    def run(self, args):
         self.language_list = sublime.load_settings("IdeoneLanguageList.sublime-settings")
         self.ideone_settings = sublime.load_settings("Codechef.sublime-settings")
         self.thread = IdeoneLanguageThread(user=str(self.ideone_settings.get('Ideone_user')), password=str(self.ideone_settings.get('Ideone_password')))
@@ -152,9 +152,7 @@ class IdeoneResetLanguageSettingsCommand(sublime_plugin.TextCommand):
             if self.thread.result == False:
                 return
             else:
-                for key in sorted(self.thread.result.keys()):
-                    self.language_list.set(str(key), self.thread.result[key])
-                sublime.save_settings('IdeoneLanguageList.sublime-settings')
+                self.language_list.set("Languages", repr(self.thread.result))
 
 
 class IdeoneSubmitThread(threading.Thread, Ideone):
@@ -201,10 +199,54 @@ class IdeoneItCommand(sublime_plugin.TextCommand):
         first_line = self.view.substr(self.view.line(0))
         m = re.match(r'.*?Ideone_Language_Id:.*?(\d+).*', first_line)
         if not m:
-            self.view.set_status('SublimeCodechef', "First line doesn't specify the language")
-            return None
-        self.view.set_status('SublimeCodechef', "")
+            self.view.set_status("SublimeCodechef", "You didn't specify the language in the first line. Click OK. We'll help you choose the language.")
+            sublime.set_timeout(self.clear_status, 20000)
+            if self.language_list.has("Languages"):
+                self.languages = eval(self.language_list.get("Languages"))
+                self.show_language_options()
+            else:
+                self.language_thread = IdeoneLanguageThread(user=str(self.ideone_settings.get('Ideone_user')), password=str(self.ideone_settings.get('Ideone_password')))
+                self.language_thread.start()
+                self.handle_language_thread()
+            return
         return (m.group(1))
+
+    def clear_status(self):
+        self.view.set_status("SublimeCodechef", "")
+
+    def handle_language_thread(self):
+        if self.language_thread.is_alive():
+            sublime.set_timeout((lambda: self.handle_language_thread()), 1000)
+        else:
+            if self.language_thread.result == False:
+                sublime.error_message("Not able to load Languages list from Ideone. Check your Internet Connection!")
+            else:
+                self.languages = self.language_thread.result
+                self.language_list.set("Languages", repr(self.language_thread.result))
+                self.show_language_options()
+
+    def show_language_options(self):
+        self.view.window().show_quick_panel(self.languages.values(), self.set_language)
+
+    def set_language(self, ind):
+        if ind == -1:
+            return
+        selection = self.view.sel()
+        selection_copy = []
+        for s in selection:
+            selection_copy.append(s)
+        language_id = self.languages.keys()[ind]
+        l = "Ideone_Language_Id:%d\n" % language_id
+        e = self.view.begin_edit()
+        self.view.insert(e, 0, l)
+        self.view.end_edit(e)
+        self.view.sel().clear()
+        self.view.sel().add(sublime.Region(0, 0))
+        self.view.run_command("toggle_comment")
+        self.view.sel().clear()
+        for s in selection_copy:
+            self.view.sel().add(sublime.Region(s.a + self.view.full_line(0).size(), s.b + self.view.full_line(0).size()))
+        self.submit_to_ideone(language_id)
 
     def reset_edit(self):
         if self.edit:
@@ -219,12 +261,16 @@ class IdeoneItCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         self.edit = False
         self.title = "Ideone Output"
+        self.language_list = sublime.load_settings("IdeoneLanguageList.sublime-settings")
         self.ideone_settings = sublime.load_settings("Codechef.sublime-settings")
         self.user = str(self.ideone_settings.get('Ideone_user'))
         self.password = str(self.ideone_settings.get('Ideone_password'))
         language_id = self.get_ideone_language()
         if not language_id:
             return
+        self.submit_to_ideone(language_id)
+
+    def submit_to_ideone(self, language_id):
         code = self.view.substr(sublime.Region(0, self.view.size()))
         self.file_name = self.view.file_name()
         self.input_file_name = re.sub(r'(.*)\..*', r'\1.txt', self.file_name)
@@ -283,8 +329,12 @@ class IdeoneItCommand(sublime_plugin.TextCommand):
             else:
                 res = "\nResult: With " + \
                 self.check_output_thread.result['langVersion'] + \
-                 "Compiler Info starts at next line:\n" + \
+                "\nCompiler Info starts at next line: ##################################\n" + \
                 self.check_output_thread.result['cmpinfo'] + \
-                "\nStderr starts at next line:\n" + self.check_output_thread.result['stderr'] + \
-                "\nAnd Output starts with next line:\n" + self.check_output_thread.result['output'] + "\n"
-                self.add_output((res) + "\n")
+                "\nStderr starts at next line: #########################################\n" +\
+                self.check_output_thread.result['stderr'] + \
+                "\nAnd Output starts with next line: ###################################\n" +\
+                self.check_output_thread.result['output']
+                self.add_output((res))
+                self.view.end_edit(self.edit)
+                self.edit = False
