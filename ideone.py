@@ -32,7 +32,7 @@ class Result:
 
 
 def handle_missing_settings():
-    sublime.error_message("Codechef: Ideone username or password isn't provided in Gist.sublime-settings file")
+    sublime.error_message("Codechef: Ideone username or password isn't provided in Codechef.sublime-settings file")
     if not os.path.exists(os.path.join(sublime.packages_path(), "User", "Codechef.sublime-settings")):
         shutil.copyfile(os.path.join(sublime.packages_path(), "Codechef", "Codechef.sublime-settings"), os.path.join(sublime.packages_path(), "User", "Codechef.sublime-settings"))
     sublime.active_window().open_file(os.path.join(sublime.packages_path(), "User", "Codechef.sublime-settings"))
@@ -199,15 +199,18 @@ class IdeoneItCommand(sublime_plugin.TextCommand):
         first_line = self.view.substr(self.view.line(0))
         m = re.match(r'.*?Ideone_Language_Id:.*?(\d+).*', first_line)
         if not m:
-            self.view.set_status("SublimeCodechef", "You didn't specify the language in the first line. Click OK. We'll help you choose the language.")
+            self.view.set_status("SublimeCodechef", "You didn't specify the language in the first line. We'll help you choose the language.")
             sublime.set_timeout(self.clear_status, 20000)
             if self.language_list.has("Languages"):
                 self.languages = eval(self.language_list.get("Languages"))
                 self.show_language_options()
             else:
-                self.language_thread = IdeoneLanguageThread(user=str(self.ideone_settings.get('Ideone_user')), password=str(self.ideone_settings.get('Ideone_password')))
-                self.language_thread.start()
-                self.handle_language_thread()
+                try:
+                    self.language_thread = IdeoneLanguageThread(user=self.user, password=self.password)
+                    self.language_thread.start()
+                    self.handle_language_thread()
+                except UnspecifiedCredentialsError:
+                    handle_missing_settings()
             return
         return (m.group(1))
 
@@ -223,6 +226,7 @@ class IdeoneItCommand(sublime_plugin.TextCommand):
             else:
                 self.languages = self.language_thread.result
                 self.language_list.set("Languages", repr(self.language_thread.result))
+                sublime.save_settings("IdeoneLanguageList.sublime-settings")
                 self.show_language_options()
 
     def show_language_options(self):
