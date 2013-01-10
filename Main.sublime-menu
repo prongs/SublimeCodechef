@@ -22,7 +22,8 @@
             },
             {
                 "caption": "Ideone It!",
-                "command": "ideone_it"
+                "command": "ideone_it",
+                "mnemonic" : "I"
             },
             {
                 "caption": "Settings",
