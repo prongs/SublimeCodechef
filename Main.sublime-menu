@@ -1,61 +1,38 @@
 [
     {
-        "id": "tools",
+        "id": "codechef",
+        "caption": "Codechef",
         "children":
         [
             {
-                "caption": "Ideone",
-                "id": "Ideone", 
-                "children" : 
-                [
-                    {
-                        "caption": "Ideone It!",
-                        "command" : "ideone_it"
-                    },
-                    {
-                        "caption" :"Reset Language Settings",
-                        "command" :"ideone_reset_language_settings"
-                    }
-                ]
+                "caption": "Edit Snippet",
+                "command": "open_file",
+                "args":
+                {
+                    "file": "${packages}/Codechef/codechef_c++.sublime-snippet"
+                }
+            },
+            {
+                "caption": "Edit Build System",
+                "command": "open_file",
+                "args":
+                {
+                    "file": "${packages}/Codechef/codechef_c++.sublime-build"
+                }
+            },
+            {
+                "caption": "Ideone It!",
+                "command": "ideone_it"
+            },
+            {
+                "caption": "Settings",
+                "command": "open_file",
+                "args":
+                {
+                    "file": "${packages}/Codechef/codechef_c++.sublime-build"
+                }
             }
-        ]
-    },
 
-    {
-        "caption": "Preferences",
-        "mnemonic": "n",
-        "id": "preferences",
-        "children":
-        [
-            {
-                "caption": "Package Settings",
-                "mnemonic": "P",
-                "id": "package-settings",
-                "children":
-                [
-                    {
-                        "caption": "SublimeCodechef",
-                        "children":
-                        [
-                            {
-                                "command": "open_file", "args":
-                                {
-                                    "file": "${packages}/SublimeCodechef/SublimeCodechef.sublime-settings"
-                                },
-                                "caption": "Settings – Default"
-                            },
-                            {
-                                "command": "open_file", "args":
-                                {
-                                    "file": "${packages}/User/SublimeCodechef.sublime-settings"
-                                },
-                                "caption": "Settings – User"
-                            },
-                            { "caption": "-" }
-                        ]
-                    }
-                ]
-            }
         ]
     }
 ]
